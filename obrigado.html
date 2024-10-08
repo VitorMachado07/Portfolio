@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado</title>
+    
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #3f3f3f;
+            color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 20px 0;
+            background-color: #002379;
+            text-align: center;
+        }
+
+        .caixa {
+            position: relative;
+            width: 940px;
+            margin: 0 auto;
+        }
+
+        .banner {
+            width: 100%;
+            max-height: 300px; 
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover; 
+        }
+
+        main {
+            padding: 40px 0;
+            width: 940px;
+            margin: 0 auto;
+            flex: 1; 
+        }
+
+        .titulo-principal {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 1em;
+            color: #FF9F66;
+        }
+
+        .descricao {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 1.5em;
+            color: #d3d0cf;
+            text-align: justify;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #002379;
+            color: #FF9F66;
+            border-top: 2px solid #FF9F66;
+        }
+
+        footer .copyright {
+            font-size: 0.9em;
+        }
+
+        .btn-voltar {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #FF9F66;
+            color: #002379;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-voltar:hover {
+            background-color: #FF7F39;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <img src="assets/img/4.png" alt="Banner" class="banner"> 
+        </div>
+    </header>
+
+    <main>
+        <h2 class="titulo-principal">Obrigado pela sua mensagem!</h2>
+        <p class="descricao">Sua mensagem foi enviada com sucesso. Em breve, entraremos em contato.</p>
+        <a href="index.html" class="btn-voltar">Voltar para o Início</a>
+    </main>
+
+    <footer>
+        <div class="copyright">© 2024 Vitor da Silva Machado. Todos os direitos reservados.</div>
+    </footer>
+</body>
+</html>
